@@ -1,0 +1,67 @@
+.blur { filter: blur(5px); }
+
+.filtroinverted { filter: invert(1); }
+
+body { margin: 0rem; padding: 0rem; overflow: hidden; background: #ffffff; color: #000000; font-family: "Spectral", serif; }
+
+.navbar { background-color: white; position: absolute; width: 100vw; height: 3rem; display: flex; z-index: 1000; border: 1px solid; display: flex; justify-content: space-between; align-items: center; }
+
+::-webkit-scrollbar { display: none; }
+
+#successivo { display: none; -ms-overflow-style: none; scrollbar-width: none; position: absolute; width: 100vw; justify-content: center; height: 92vh; overflow-y: scroll; top: 3rem; }
+
+#successivo.visible { display: flex; }
+
+.hover_img a { position: relative; }
+
+.hover_img a span { position: absolute; display: none; z-index: 99; }
+
+.hover_img a:hover span { display: block; }
+
+.hover_desc a { position: relative; }
+
+.hover_desc a span { position: absolute; display: none; z-index: 99; }
+
+.hover_desc a:hover span { display: block; }
+
+#invertcolors { background-color: white; font-size: .9rem; position: fixed; top: 80vh; left: 29vw; border: 1px solid; border-radius: 15px; padding-left: 1.5rem; padding-right: 1.5rem; }
+
+.label { padding: .2rem; font-size: 0.6rem; }
+
+#lavori:hover { background-color: #666; }
+
+#lavori:active { background-color: #444; }
+
+#lavori { position: absolute; z-index: 200; font-size: 2rem; top: 4rem; left: 6rem; border: 2px solid; border-radius: 11px; background-color: white; }
+
+.thumbproject { width: 20vw; height: auto; }
+
+.immaginesingolaprogetto { width: 40vw; height: auto; }
+
+#titolo { margin-left: 2rem; z-index: 10; font-size: 2rem; }
+
+#about { margin-right: 2rem; z-index: 10; font-size: 2rem; }
+
+.p5Canvas { z-index: 0; }
+
+.progettosingolo { text-align: center; display: inline-flex; flex-direction: column; margin: .5rem; border: 2px solid black; border-radius: 10px; background-color: white; }
+
+.listalavori { text-align: center; font-size: 2rem; line-height: 3rem; display: flex; flex-direction: column; padding: 0rem; /*   width:75vw; */ z-index: 100; }
+
+.progetto { height: 20rem; }
+
+#contentabout { position: absolute; }
+
+#containerabout { height: 100vh; display: flex; align-items: center; justify-content: center; }
+
+.containerprogetto { display: flex; flex-direction: column; height: 100vh; justify-content: center; align-items: center; }
+
+a { text-decoration: none; color: black; cursor: pointer; }
+
+.post { width: 100vw; height: -webkit-fill-available; display: flex; justify-content: center; align-items: center; }
+
+.contenutopost { width: 10vw; }
+
+@media (max-width: 480px) { /* smartphones, Android phones, landscape iPhone */ #works { z-index: 100; font-family: 'Spectral', serif; position: absolute; right: 2rem; top: 2rem; z-index: 10; font-size: 1.5rem; } #titolo { font-family: 'Spectral', serif; position: absolute; left: 2rem; top: 2rem; z-index: 10; font-size: 1rem; } #about { margin-right: 2rem; z-index: 10; font-size: 1rem; } }
+
+/*# sourceMappingURL=main.css.map */

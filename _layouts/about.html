@@ -1,0 +1,26 @@
+{% include head.html %}
+{% include cartiglio.html %}
+
+<body>
+<div id="containerabout">
+<div id="contentabout">
+{{content}}
+</div>
+</div>
+
+
+<div id="successivo" style="display: none;">
+    <ul class="listalavori">
+      {% for post in site.posts %}
+        <li class="progettosingolo">
+          <img class="progetto" src="{{ post.img }}"/>
+
+          <a href="{{ post.url }}">{{ post.title }}</a>
+
+<!--           <a href="{{ post.url }}" id="myBtn">{{ post.title }}</a> -->        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+</body>

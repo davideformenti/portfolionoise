@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+
+    {% include cartiglio.html %}
+
+<button id="invertcolors">Invert colors</button>
+ 
+    <div id="successivo">
+      <ul class="listalavori">
+
+        {% for progetto in site.progetti %}
+    <div class="hover_img">
+      <a href="{{ progetto.url }}">{{ progetto.title }}<span><img class="thumbproject" src="{{ progetto.picture }}" alt="image" height="100" /><!-- {{ progetto.description }} --></span></a>
+    </div>
+    
+   
+{% endfor %}
+
+
+
+        <!-- {% for post in site.posts %}
+          <li class="progettosingolo">
+            <img class="progetto" src="{{ post.img }}"/>
+  
+
+            
+            <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+        {% endfor %} -->
+
+
+
+      </ul>
+    </div>
+
+
+    {% include script.html %}
+   
+
+
+
+  </body>
+
+
+
+</html>
