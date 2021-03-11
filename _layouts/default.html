@@ -1,18 +1,37 @@
 <!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="{{ site.lang | default: "en-US" }}">
-  {% include head.html %}
-  <body>
 
-    {% include cartiglio.html %}
+{% include head.html %}
+  {% include cartiglio.html %}
+
+  <body>
+    <div id="aboutmodal">
+    <div id="aboutmodalinside">
+      {% for page in site.pages %}
+      {% if page.layout == 'about' %}
+        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+        <p>{{ page.content }}</p>
+      {% endif %}
+      {% endfor %}
+    </div>
+    </div>
+
+<div id="titolone">
+<span id="nome">Davide Formenti Arranz <br></span>
+<span id="motto">motion and coding</span>
+</div>
 
 <button id="invertcolors">Invert colors</button>
  
+
+
     <div id="successivo">
       <ul class="listalavori">
 
         {% for progetto in site.progetti %}
     <div class="hover_img">
-      <a href="{{ progetto.url }}">{{ progetto.title }}<span><img class="thumbproject" src="{{ progetto.picture }}" alt="image" height="100" /><!-- {{ progetto.description }} --></span></a>
+      <a href="{{ progetto.url }}">{{ progetto.title }}<span><img class="thumbproject" src="{{ progetto.thumbnail }}" alt="image" height="100" /><!-- {{ progetto.description }} --></span></a>
     </div>
     
    

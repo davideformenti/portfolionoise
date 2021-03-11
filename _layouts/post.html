@@ -1,69 +1,54 @@
 {% include head.html %}
+{% include cartiglio.html %}
 
   
   
   <body>
-    {% include cartiglio.html %}
 
  
+    <a id="descrizione">
+      Metadata
+    </a>
 
+    <div class="containerprogetto">
+      <ul id="list_1" class="photo-gallery">
+        {% for picture in page.pictures %}
+          <li id="elemento_{{forloop.index}}" class="list-item-progetto "><img class="immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/></li>
+        {% endfor %}
+      </ul>
 
-    <article class="containerprogetto">
-
-
-      <img class="immaginesingolaprogetto" src="{{ page.picture }}" alt="Photo of a {{ page.title | downcase }}">
-      <img class="immaginesingolaprogetto" src="{{ page.picture2 }}" alt="Photo of a {{ page.title | downcase }}">
-  
-  
-    <h1> {{ page.title }}</h1>
-  
-    <div class="animal-class {{ progetto.class | downcase }}">
-      {{ progetto.class }}
+     
     </div>
-  
-    <div class="animal-family {{ page.class | downcase }}">
-      {{ page.class }}
+
+    <div id="dragHere">
+Drag images to make a fully scrollable chaotic composition
     </div>
-  
-    <div>
-      {{ content }}
+
+    <div id="dettagli">
+           {{ page.title }}
+              {{ page.content }}
+      
+    
     </div>
-  
-  </article>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div id="successivo" style="display: none;">
+  <div id="successivo">
     <ul class="listalavori">
-      {% for post in site.posts %}
-        <li class="progettosingolo">
-          <img class="progetto" src="{{ post.img }}"/>
 
-          <a href="{{ post.url }}">{{ post.title }}</a>
-
-<!--           <a href="{{ post.url }}" id="myBtn">{{ post.title }}</a> -->        </li>
-      {% endfor %}
+      {% for progetto in site.progetti %}
+  <div class="hover_img">
+    <a href="{{ progetto.url }}">{{ progetto.title }}<span><img class="thumbproject" src="{{ progetto.thumbnail }}" alt="image" height="100" /><!-- {{ progetto.description }} --></span></a>
+  </div>
+  
+ 
+{% endfor %}
     </ul>
   </div>
 
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
+  {% include scriptabout.html %}
+
 </body>

@@ -9,18 +9,20 @@
 </div>
 
 
-<div id="successivo" style="display: none;">
-    <ul class="listalavori">
-      {% for post in site.posts %}
-        <li class="progettosingolo">
-          <img class="progetto" src="{{ post.img }}"/>
+<div id="successivo">
+  <ul class="listalavori">
 
-          <a href="{{ post.url }}">{{ post.title }}</a>
+    {% for progetto in site.progetti %}
+<div class="hover_img">
+  <a href="{{ progetto.url }}">{{ progetto.title }}<span><img class="thumbproject" src="{{ progetto.picture }}" alt="image" height="100" /><!-- {{ progetto.description }} --></span></a>
+</div>
 
-<!--           <a href="{{ post.url }}" id="myBtn">{{ post.title }}</a> -->        </li>
-      {% endfor %}
+
+{% endfor %}
     </ul>
   </div>
+  {% include scriptabout.html %}
 
-  <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 </body>
+
+

@@ -35,10 +35,10 @@ function setup()
 
     p5Canvas=createCanvas(windowWidth,windowHeight);
     gui = createGui();
-    gui.setTextSize(15);
+    gui.setTextSize(20);
     gui.setStrokeWeight(1);
     gui.setFont(spectral);
-   // gui.setRounding(5); // Draws nice rounded corners.
+   gui.setRounding(0); 
 
     mobileLayout(); // <- uncomment for mobile layout  
     
@@ -355,9 +355,9 @@ function mobileLayout() {
 s1 = createSlider("Magnitude", w*0.022, h*0.8, w*0.25, h*0.03, 0, 1);
 s1.val = 0.5; 
 s2 = createSlider("Particle Radius", w*0.022, h*0.9, w*0.42, h*0.03, 0, 85);  // Last two args are min and max
-s2.val=10;
+s2.val=4;
 s3 = createSlider("Stroke Weight", w*0.47, h*0.80, w*0.12, h*0.03, 0,2);  // Last two args are min and max
-s3.val = 0;
+s3.val = 0.2;
 s4 = createSlider("HUE", w*0.47, h*0.9, w*0.16, h*0.03, 0,01);  // Last two args are min and max
 s5 = createSlider("Vel multiplier", w*0.61, h*0.80, w*0.14, h*0.03, 0,15);  // Last two args are min and max
 s4.val = 0;
