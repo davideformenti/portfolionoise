@@ -79,12 +79,3 @@ $( function() {
   $( ".list-item-progetto" ).draggable();
 } );
 
-var sortableLinks = $("#list_1");
-$(sortableLinks).sortable();
-var linkOrderData = $(sortableLinks).sortable('serialize');
-
-
-$(document.body).on("touchmove", function(event) {
-  event.preventDefault();
-  event.stopPropagation();
-});
