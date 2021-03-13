@@ -41,14 +41,14 @@ background-size: cover;
     </a>
 
     <div class="containerprogetto">
-      <ul id="list_1" class="photo-gallery">
+
        
           {% for picture in page.pictures %}
-          <li id="elemento_{{forloop.index}}" class="list-item-progetto ">
-            <img class="immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/></li>
+      
+            <img id="elemento_{{forloop.index}}" class="photo-gallery list-item-progetto immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/>
+        
           {% endfor %}
           
-      </ul>
     </div>
 
 

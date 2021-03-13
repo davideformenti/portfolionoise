@@ -29,7 +29,7 @@ $("#invertcolors").click(function(){
 
 $(document).click(function(event) {
   //if you click on anything except the modal itself or the "open modal" link, close the modal
-  if (!$(event.target).closest(" #lavori, .progettosingolo, #about, .listalavori").length) {
+  if (!$(event.target).closest(" #lavori, .progettosingolo, #about, #aboutmodalinside, #aboutmodal, .listalavori").length) {
     $("body").find("#successivo").removeClass("visible");
     $("body").find("#aboutmodal").removeClass("visible");
     $("body").find("#defaultCanvas0").removeClass("blur");
@@ -58,7 +58,7 @@ $(document).click(function(event) {
   }
 });
 
-var divs = $('#list_1 li');
+var divs = $('.containerprogetto img');
 console.log(divs.length);
 console.log(divs);
 var docHeight = $(document).height(),

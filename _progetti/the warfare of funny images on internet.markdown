@@ -10,4 +10,3 @@ pictures :
 - picture: /assets/img/thewarfareoffunnypicuresoninternet/finding2.png
 - picture: /assets/img/thewarfareoffunnypicuresoninternet/cover.gif
 ---
-
