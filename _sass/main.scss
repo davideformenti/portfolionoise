@@ -124,30 +124,30 @@ top:3rem;
 
 .thumbproject{width: 15vw;height: auto;}
 
-.immaginesingolaprogetto{ 
-  height: 70vh;
-}
-.list-item-progetto{
-  position:absolute;
+.immaginesingolaprogetto
+            { 
+              width: auto;
+              height: 25rem;
+            }
+ .list-item-progetto{
   list-style: none;
-  top:20vh;
-  left:10vw;
-}
+
+} 
 
 #titolo{
   z-index: 10; 
 }
 #titolone{
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Spectral', serif;
-  align-items: center;
-  /* line-height: 14vh; */
-  /* padding-left: 2vw; */
-  font-weight: 200;
-}
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Spectral', serif;
+        align-items: center;
+        /* line-height: 14vh; */
+        /* padding-left: 2vw; */
+        font-weight: 200;
+          }
 #nome{text-align: center;   font-size: 2.5rem;}
 #motto{text-align: center;  font-size: 1.5rem;}
 #about{
@@ -207,7 +207,6 @@ top:3rem;
   justify-content: center;}
 
 .containerprogetto{    
- 
   overflow-x: scroll;
   /* overflow-y: hidden; */
   position: absolute;
@@ -220,8 +219,9 @@ top:3rem;
   /* margin-left: 2vw; */
   margin-right: 2vw;
   /* border: 2px solid black; */
-
-}
+  display: flex;
+/*   align-items: center; */
+justify-content: center;}
 
 #descrizione{
   position: fixed;
@@ -275,8 +275,22 @@ a {
   margin:0rem;
 }
 
+/* .photo-gallery{display: flex;}
+ */
 
+ .list-item-progetto {
+ /*  cursor: move; */ /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
 
+/* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.list-item-progetto:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
 
 
 

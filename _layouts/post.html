@@ -1,10 +1,40 @@
-{% include head.html %}
-{% include cartiglio.html %}
+ 
+ 
+        {% include head.html %}
+        {% include cartiglio.html %}
 
-  
-  
   <body>
+  
+    <!--  CONTROLLO DEL TITOLO DELLA PAGINA: POSSIBILE ASSEGNARE CSS PERSONALIZZATO A SECONDA DEL TITOLO DELLA PAGINA IN CUI CI SI TROVA. 
+      SCOMMENTANDO SI ATTIVA LA GIF COME BACKGROUND NEL POST "THE WARFARE OF FUNNY PICTURES ON INTERNET"
+    
+    
+      {% if page.title contains 'The Warfare of' %}
 
+    <style>
+      body{
+        background-attachment: fixed;
+background-image: url({{page.backgroundImage}});
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+      }
+    </style>
+    
+    {% endif %} 
+
+  -->
+
+    <div id="aboutmodal">
+      <div id="aboutmodalinside">
+        {% for page in site.pages %}
+        {% if page.layout == 'about' %}
+          <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+          <p>{{ page.content }}</p>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
  
     <a id="descrizione">
       Metadata
@@ -12,43 +42,51 @@
 
     <div class="containerprogetto">
       <ul id="list_1" class="photo-gallery">
-        {% for picture in page.pictures %}
-          <li id="elemento_{{forloop.index}}" class="list-item-progetto "><img class="immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/></li>
-        {% endfor %}
+       
+          {% for picture in page.pictures %}
+          <li id="elemento_{{forloop.index}}" class="list-item-progetto ">
+            <img class="immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/></li>
+          {% endfor %}
+          
       </ul>
-
-     
     </div>
 
-    <div id="dragHere">
-Drag images to make a fully scrollable chaotic composition
-    </div>
+
+                  <!-- <div id="dragHere">
+                  Drag images to make a fully scrollable chaotic composition
+                  </div> -->
 
     <div id="dettagli">
            {{ page.title }}
-              {{ page.content }}
-      
-    
-    </div>
-
-
-
-
+           {{ page.content }}
+   </div>
 
 
   <div id="successivo">
     <ul class="listalavori">
 
       {% for progetto in site.progetti %}
-  <div class="hover_img">
-    <a href="{{ progetto.url }}">{{ progetto.title }}<span><img class="thumbproject" src="{{ progetto.thumbnail }}" alt="image" height="100" /><!-- {{ progetto.description }} --></span></a>
-  </div>
-  
- 
-{% endfor %}
+
+          <div class="hover_img">
+            <a href="{{ progetto.url }}">{{ progetto.title }}
+              <span>
+                <img class="thumbproject" src="{{ progetto.thumbnail }}" alt="image" height="100" /><!-- {{ progetto.description }} -->
+              </span>
+          </a>
+          </div>
+      {% endfor %}
+      
     </ul>
   </div>
 
   {% include scriptabout.html %}
 
 </body>
+
+
+<!-- <script>
+window.onload = (event) => {
+  console.log('The page has fully loaded');
+  alert('Drag images to fix the composition');
+};
+</script> -->

@@ -20,6 +20,7 @@ $("#invertcolors").click(function(){
   $(".listalavori").toggleClass("filtroinverted");   
   $(".thumbproject").toggleClass("filtroinverted");   
   $("#nome").toggleClass("filtroinverted");   
+  $("#motto").toggleClass("filtroinverted");   
   $(".label").toggleClass("filtroinverted");   
   $("#aboutmodalinside").toggleClass("filtroinverted");   
 });
@@ -28,7 +29,7 @@ $("#invertcolors").click(function(){
 
 $(document).click(function(event) {
   //if you click on anything except the modal itself or the "open modal" link, close the modal
-  if (!$(event.target).closest(" #lavori, .progettosingolo, #about").length) {
+  if (!$(event.target).closest(" #lavori, .progettosingolo, #about, .listalavori").length) {
     $("body").find("#successivo").removeClass("visible");
     $("body").find("#aboutmodal").removeClass("visible");
     $("body").find("#defaultCanvas0").removeClass("blur");
@@ -57,6 +58,39 @@ $(document).click(function(event) {
   }
 });
 
+var divs = $('#list_1 li');
+console.log(divs.length);
+console.log(divs);
+var docHeight = $(document).height(),
+        docWidth = $(document).width(),
+        divWidth = divs.width(),
+        divHeight = divs.height(),
+        heightMax = docHeight - divHeight,
+        widthMax = docWidth - divWidth;
+var resto
+for (var i=0; i<divs.length; i++ ){
+  resto=i%2;
+   if(resto==0){
+    $(divs[i]).css("position", "absolute");
+   
+    $(divs[i]).css({
+      left: Math.floor( Math.random(1,3) * widthMax ),
+      top: Math.floor( Math.random(1,3) * heightMax )
+  });
+  } 
+  else{
+    $(divs[i]).css("position", "absolute");
+      
+    $(divs[i]).css({
+      right: Math.floor( Math.random(1,3) * widthMax ),
+      bottom: Math.floor( Math.random(1,3) * heightMax )
+  });
+  }
+}
+
+
+/* var links = $('#elements div a'); */
+
 
 /* 
 
@@ -75,7 +109,9 @@ $('.list-item-progetto').click(function() {
       top: Math.floor( Math.random() * heightMax )
   });
 }); */
-$( function() {
+
+
+ $( function() {
   $( ".list-item-progetto" ).draggable();
-} );
+} ); 
 
