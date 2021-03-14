@@ -12,5 +12,5 @@ pictures :
 - picture: /assets/img/sartoriasanvittore/sartoria4.jpg
 ---
 
-Cover for the first volume of "Playfill" series. Listen on Spotify --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
-{: .intro }
+Rebrand of Sartoria san vittore, a tailoring shop specialized in high-level hand tailored clothes.
+The intresting thing is that all the wearable items are crafted by ex cssd

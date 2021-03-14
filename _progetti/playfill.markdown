@@ -17,5 +17,9 @@ pictures :
 
 ---
 
-Cover for the first volume of "Playfill" series. Listen on Spotify --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
+Cover for some volumes of "Playfill" series. Listen on Spotify the first one --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
 {: .intro }
+Rosa Massara De Capitani 5, Bovisa MI 
+{: .luogo }
+c4d, Octane, photoshop, illustrator
+{: .how }

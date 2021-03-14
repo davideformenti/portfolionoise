@@ -34,7 +34,7 @@ body { margin: 0rem; padding: 0rem; /*   overflow: hidden; */ background: #fffff
 
 #invertcolors { background-color: white; font-size: .9rem; position: absolute; top: 80vh; left: 29vw; border: 1px solid; /* border-radius: 15px; */ padding-left: 1.5rem; padding-right: 1.5rem; }
 
-.label { padding: .2rem; font-size: 0.6rem; }
+.label { padding: .2rem; font-size: 1rem; }
 
 #lavori:hover { background-color: #666; }
 

@@ -13,5 +13,5 @@ pictures :
 - picture: \assets\img\traces of the new gold rush/4.png
 ---
 
-
-
+Website built entirely to unveil the secrets beneath the bitcoin economy. 
+<BR>We've tried to focus the main topic on carbon dioxide emission made from the 

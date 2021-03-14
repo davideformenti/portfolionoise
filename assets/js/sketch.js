@@ -77,8 +77,8 @@ function setup()
      select('#label2').position( windowWidth*0.022, windowHeight*0.84);
      select('#label3').position( windowWidth*0.47, windowHeight*0.730);
      select('#label4').position( windowWidth*0.47, windowHeight*0.84);
-     select('#label5').position( windowWidth*0.69, windowHeight*0.730);
-     select('#label6').position( windowWidth*0.69, windowHeight*0.84);
+     select('#label5').position( windowWidth*0.66, windowHeight*0.730);
+     select('#label6').position( windowWidth*0.66, windowHeight*0.84);
      select('#label2d').position( windowWidth*0.837, windowHeight*0.73);
     
     }

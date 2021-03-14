@@ -11,5 +11,6 @@ pictures :
 - picture: /assets/img/ugualemagazine/uguale3.jpg
 ---
 
+For the Complex Artifact Course the team developed a magazine about human rights and their 
 Cover for the first volume of "Playfill" series. Listen on Spotify --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
 {: .intro }
