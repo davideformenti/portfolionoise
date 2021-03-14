@@ -60,7 +60,7 @@ body { margin: 0rem; padding: 0rem; /*   overflow: hidden; */ background: #fffff
 
 #draghere { position: absolute; display: flex; justify-content: center; height: 74vh; width: 43vw; top: 15vh; z-index: -2; right: 3vw; align-items: center; }
 
-.listalavori { position: fixed; background-color: white; border: 2px solid black; /* border-radius: 15px; */ text-align: center; font-size: 2rem; line-height: 3rem; display: flex; flex-direction: column; /* padding: 1rem; padding-left: 2rem; padding-right: 2rem; */ /* width: 75vw; */ overflow-y: scroll; height: 41vh; z-index: 100; }
+.listalavori { position: fixed; background-color: white; border: 1px solid black; /* border-radius: 15px; */ text-align: center; font-size: 2rem; line-height: 3rem; display: flex; flex-direction: column; padding: 3rem; /* padding-left: 2rem; padding-right: 2rem; */ /* width: 75vw; */ overflow-y: scroll; height: 41vh; z-index: 100; }
 
 .progetto { height: 20rem; }
 

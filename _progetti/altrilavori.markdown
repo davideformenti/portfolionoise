@@ -6,12 +6,16 @@ description: Equidae
 subheader:  un sito artistico
 thumbnail: /assets/img/altrilavori/1.jpg
 pictures : 
-- picture: /assets/img/altrilavori/1.jpg
-- picture: /assets/img/altrilavori/2.jpg
-- picture: /assets/img/altrilavori/3.jpg
-- picture: /assets/img/altrilavori/4.jpg
+
 - picture: /assets/img/altrilavori/5.jpg
 - picture: /assets/img/altrilavori/9.jpg
+- picture: /assets/img/altrilavori/1.jpg
+- picture: /assets/img/altrilavori/noise_1.gif
+- picture: /assets/img/altrilavori/2.jpg
+- picture: /assets/img/altrilavori/waves.gif
+- picture: /assets/img/altrilavori/3.jpg
+- picture: /assets/img/altrilavori/4.jpg
+
 
 videos : 
 
