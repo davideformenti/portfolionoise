@@ -81,8 +81,8 @@ padding: 1rem;
   width: 100vw;
   justify-content: center;
   height: 92vh;
-  overflow-y: scroll;
-top:3rem;
+/*   overflow-y: scroll;
+ */top:3rem;
 &.visible {
   display: flex;
 }
@@ -125,8 +125,8 @@ top:3rem;
 .thumbproject{
   width: 15vw;
   height: auto;
-  position: relative;
-  top: -4rem;
+  position: absolute;
+  top: -5rem;
 }
 
 .immaginesingolaprogetto
@@ -197,9 +197,9 @@ top:3rem;
   line-height: 3rem;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  /* padding: 1rem;
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 2rem; */
   /* width: 75vw; */
   overflow-y: scroll;
   height: 41vh;
