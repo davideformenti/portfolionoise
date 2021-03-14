@@ -58,7 +58,7 @@ $(document).click(function(event) {
   }
 });
 
-var divs = $('.containerprogetto img');
+var divs = $('.containerprogetto img, video');
 console.log(divs.length);
 console.log(divs);
 var docHeight = $(document).height(),

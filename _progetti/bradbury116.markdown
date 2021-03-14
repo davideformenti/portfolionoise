@@ -13,7 +13,11 @@ pictures :
 - picture: /assets/img/bradbury116/funghi6.jpg
 ---
 
-Cover for the first volume of "Playfill" series. Listen on Spotify --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
+Dal corso di sociologia dei Media e dei Nuovi mezzi di comunicazione 2 nasce l'idea di un progetto basato sui concetti di traduzione multimediale e creative commons. La tematica scelta era un racconto di Ray Bradbury del 1956, intitolato "Ragazzi! Coltivate i funghi giganti nelle vostre cantine". L'analisi del racconto ha portato a identificare due momenti nettamente differenti narrativi che hanno portato alla produzione di BRADBURY 116, un tangram-puzzle a due facce che prevede una sola combinazione nella quale ambedue le facce sono graficamente corrette.
 {: .intro }
+
+GRUPPO DI LAVORO<br>
+Francesca dell'Orto, Davide Formenti, Riccardo Fuccelli, Carlo Ottaviani, Andrea Pronzati
+{: .team }
 
 

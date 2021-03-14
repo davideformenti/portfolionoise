@@ -112,17 +112,22 @@ top:3rem;
 
 .label{padding:.2rem; font-size: 1rem; } 
 
-#lavori:hover {
+/* #lavori:hover {
   background-color: #666;
 }
 #lavori:active {
   background-color: #444;
-}
+} */
 
 #lavori{
  }
 
-.thumbproject{width: 15vw;height: auto;}
+.thumbproject{
+  width: 15vw;
+  height: auto;
+  position: relative;
+  top: -4rem;
+}
 
 .immaginesingolaprogetto
             { 
@@ -192,7 +197,9 @@ top:3rem;
   line-height: 3rem;
   display: flex;
   flex-direction: column;
-  padding: 4rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   /* width: 75vw; */
   overflow-y: scroll;
   height: 41vh;
@@ -236,7 +243,7 @@ padding: 1rem; }
 
 #dettagli{
   width: 70vw;
-  height: 4vh;
+  height: auto;
   display: none;
   position: fixed;
   right: 2vw;
@@ -244,11 +251,12 @@ padding: 1rem; }
   padding: 1rem;
   background-color: white;
 /*   border-radius: 16px;*/
-  border: 2px solid black;
+  border: 1px solid black;
   &.visible {
     display: flex;
-    justify-content: space-between;
-  }
+    flex-wrap: wrap;
+/*     justify-content: space-between;
+ */  }
 }
 
 .intro{margin:0;}

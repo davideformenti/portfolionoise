@@ -11,6 +11,8 @@ pictures :
 - picture: /assets/img/ugualemagazine/uguale3.jpg
 ---
 
-For the Complex Artifact Course the team developed a magazine about human rights and their 
-Cover for the first volume of "Playfill" series. Listen on Spotify --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
-{: .intro }
+Uguale Magazine nasce come frutto del lavoro di gruppo nel corso Design di Artefatti Complessi di magistrale. Con l'assegnazione della tematica "Diritti Umani" è stato intrapreso un percorso di ricerca basato su storie, racconti ed esperienze del singolo che cercano di elidere dalla cultura milanese ogni forma di stereotipo.
+
+GRUPPO DI LAVORO<br>
+Anonella Autuori, Davide Formenti, Riccardo Fuccelli, Andrea Pronzati, Panita Siri Won-garm, Costanza Trinari.
+{: .team }

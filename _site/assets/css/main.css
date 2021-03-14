@@ -36,11 +36,8 @@ body { margin: 0rem; padding: 0rem; /*   overflow: hidden; */ background: #fffff
 
 .label { padding: .2rem; font-size: 1rem; }
 
-#lavori:hover { background-color: #666; }
-
-#lavori:active { background-color: #444; }
-
-.thumbproject { width: 15vw; height: auto; }
+/* #lavori:hover { background-color: #666; } #lavori:active { background-color: #444; } */
+.thumbproject { width: 15vw; height: auto; position: relative; top: -4rem; }
 
 .immaginesingolaprogetto { width: auto; height: 25rem; }
 
@@ -62,7 +59,7 @@ body { margin: 0rem; padding: 0rem; /*   overflow: hidden; */ background: #fffff
 
 #draghere { position: absolute; display: flex; justify-content: center; height: 74vh; width: 43vw; top: 15vh; z-index: -2; right: 3vw; align-items: center; }
 
-.listalavori { position: fixed; background-color: white; border: 2px solid black; /* border-radius: 15px; */ text-align: center; font-size: 2rem; line-height: 3rem; display: flex; flex-direction: column; padding: 4rem; /* width: 75vw; */ overflow-y: scroll; height: 41vh; z-index: 100; }
+.listalavori { position: fixed; background-color: white; border: 2px solid black; /* border-radius: 15px; */ text-align: center; font-size: 2rem; line-height: 3rem; display: flex; flex-direction: column; padding: 1rem; padding-left: 2rem; padding-right: 2rem; /* width: 75vw; */ overflow-y: scroll; height: 41vh; z-index: 100; }
 
 .progetto { height: 20rem; }
 
@@ -74,9 +71,9 @@ body { margin: 0rem; padding: 0rem; /*   overflow: hidden; */ background: #fffff
 
 #descrizione { position: fixed; z-index: 200; font-size: 1rem; bottom: 5vh; left: 2vw; border: 1px solid; /* border-radius: 11px; */ background-color: white; padding: 1rem; }
 
-#dettagli { width: 70vw; height: 4vh; display: none; position: fixed; right: 2vw; bottom: 5vh; padding: 1rem; background-color: white; /*   border-radius: 16px;*/ border: 2px solid black; }
+#dettagli { width: 70vw; height: auto; display: none; position: fixed; right: 2vw; bottom: 5vh; padding: 1rem; background-color: white; /*   border-radius: 16px;*/ border: 1px solid black; }
 
-#dettagli.visible { display: flex; justify-content: space-between; }
+#dettagli.visible { display: flex; flex-wrap: wrap; /*     justify-content: space-between; */ }
 
 .intro { margin: 0; }
 

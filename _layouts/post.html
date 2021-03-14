@@ -42,8 +42,17 @@ background-size: cover;
 
     <div class="containerprogetto">
 
-       
+        {% for video in page.videos %}
+          <video width="320" height="240" controls id="elemento_{{forloop.index}}" class="photo-gallery list-item-progetto immaginesingolaprogetto" alt="{{ image.title}}">
+          <source src="{{ video.video }}" type="video/mp4">
+          </video>
+          {% endfor %}
+
+
           {% for picture in page.pictures %}
+
+         
+
       
             <img id="elemento_{{forloop.index}}" class="photo-gallery list-item-progetto immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/>
         
@@ -70,10 +79,11 @@ background-size: cover;
           <div class="hover_img">
             <a href="{{ progetto.url }}">{{ progetto.title }}
               <span>
-                <img class="thumbproject" src="{{ progetto.thumbnail }}" alt="image" height="100" /><!-- {{ progetto.description }} -->
+                 <img class="thumbproject" src="{{ progetto.thumbnail }}" alt="image" height="100" /><!-- {{ progetto.description }} -->
               </span>
           </a>
           </div>
+          
       {% endfor %}
       
     </ul>

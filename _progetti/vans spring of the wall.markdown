@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vans Spring Of The Wall
+title: VANS Spring Of The Wall
 class: Graphic and Motion Design
 description: 
 link: 
@@ -14,6 +14,10 @@ pictures :
 - picture: /assets/img/springoffthewall/vans8.jpg
 - picture: /assets/img/springoffthewall/vans9.jpg
 ---
-
-Cover for the first volume of "Playfill" series. Listen on Spotify --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
+VANS ha collaborato con la Scuola del Design del Politecnico di Milano dando vita ad un’esperienza evento che unisce creatività, innovazione e attitudine “Off the Wall”. 59 studenti del terzo anno, provenienti dai Corsi di Studio di Comunicazione, Interni, Prodotto e Moda, selezionati tramite una call. Diverse sono state le fasi di progetto: un hackathon di lancio, una concept generation di circa 2 settimane, un workshop di una settimana e infine l’opportunità di seguire lo sviluppo dei progetti fino alla realizzazione dell’evento.
 {: .intro }
+
+GRUPPO DI LAVORO <br>
+Agnese Bartolucci Eleonora Rossetti Leonardo Codamo Stefano Bracchi Giacomo Zambon Andrea Rigamonti Davide Formenti Niccolò Fanzoni
+{: .team }
+

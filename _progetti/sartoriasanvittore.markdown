@@ -12,5 +12,6 @@ pictures :
 - picture: /assets/img/sartoriasanvittore/sartoria4.jpg
 ---
 
-Rebrand of Sartoria san vittore, a tailoring shop specialized in high-level hand tailored clothes.
-The intresting thing is that all the wearable items are crafted by ex cssd
+Rebrand del marchio Sartoria SanVittore, piccolo negozio di abiti di alta moda fatti a mano da ex carcerate. L'obiettivo principale è stato quello di sottolineare il percorso e il tracciamento di ogni fase di produzione dell'abito.
+
+GRUPPO DI LAVORO

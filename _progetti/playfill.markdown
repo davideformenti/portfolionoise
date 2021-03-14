@@ -4,16 +4,15 @@ title: Quarantine Collaborative Playlists
 class: Graphic and Motion Design
 description: 
 link: 
-thumbnail: /assets/img/playfill/1.png
+thumbnail: /assets/img/playfill/6.jpg
 pictures : 
-- picture: /assets/img/playfill/1.png
-- picture: /assets/img/playfill/2.png
-- picture: /assets/img/playfill/3.png
-- picture: /assets/img/playfill/4.png
-- picture: /assets/img/playfill/5.png
-- picture: /assets/img/playfill/6.png
-- picture: /assets/img/playfill/7.png
-- picture: /assets/img/playfill/8.png
+- picture: /assets/img/playfill/1.jpg
+- picture: /assets/img/playfill/2.jpg
+- picture: /assets/img/playfill/3.jpg
+- picture: /assets/img/playfill/4.jpg
+- picture: /assets/img/playfill/5.jpg
+- picture: /assets/img/playfill/6.jpg
+- picture: /assets/img/playfill/7.jpg
 
 ---
 
