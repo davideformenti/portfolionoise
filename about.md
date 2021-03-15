@@ -1,5 +1,5 @@
 ---
-layout: about
+allegato: /assets/file/portfolio_low_formenti_davide.pdf
 title: "Who? Why?"
 ---
 

@@ -1,5 +1,8 @@
- 
- 
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-control" content="public">
+<html lang="{{ site.lang | default: "en-US" }}">
+
         {% include head.html %}
         {% include cartiglio.html %}
 
@@ -43,7 +46,7 @@ background-size: cover;
     <div class="containerprogetto">
 
         {% for video in page.videos %}
-          <video width="320" height="240" controls id="elemento_{{forloop.index}}" class="photo-gallery list-item-progetto immaginesingolaprogetto" alt="{{ image.title}}">
+          <video controls autoplay id="elemento_{{forloop.index}}" class="photo-gallery list-item-progetto immaginesingolaprogetto" alt="{{ image.title}}">
           <source src="{{ video.video }}" type="video/mp4">
           </video>
           {% endfor %}

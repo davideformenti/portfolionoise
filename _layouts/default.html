@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-control" content="public">
 <html lang="{{ site.lang | default: "en-US" }}">
 
 {% include head.html %}
@@ -12,6 +13,8 @@
       {% if page.layout == 'about' %}
         <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
         <p>{{ page.content }}</p>
+        <a href="{{page.allegato}}" target="_blank"><b>Clicca Qui per scaricare il file</b></a>
+
       {% endif %}
       {% endfor %}
     </div>
@@ -55,7 +58,6 @@
     </div>
 
 
-    {% include script.html %}
    
 
 
@@ -65,3 +67,4 @@
 
 
 </html>
+{% include script.html %}

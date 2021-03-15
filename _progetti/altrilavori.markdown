@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sperimenti 3D
+title: Esperimenti personali
 class: Web developing
 description: Equidae
 subheader:  un sito artistico
@@ -20,4 +20,4 @@ videos :
 ---
 
 
-
+Sperimentazioni visive personali. Tutte i risultati sono stati ottenuti utilizzando cinema 4d, octane render, daz studio, Substance painter e Marvelous Designer
