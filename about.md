@@ -13,7 +13,7 @@ Musicista sporadico <br>
 
 Pilota Droni e SAPR con licenza ENAC.<br>
 
-In parte Italiano, Por Parte Espanol. <br>
+In parte italiano, in parte spagnolo. <br>
 
 
 
