@@ -19,7 +19,8 @@ In parte italiano, in parte spagnolo. <br>
 
 davideformentiarranz@gmail.com<br>
 
-@davidformentiarranz<br><br>
+[@davideformentiarranz](https://www.instagram.com/davideformentiarranz/ "Instagram Account")
+{: .intro }
 
 
 This Portfolio was developed with Jekyll and Github Pages
