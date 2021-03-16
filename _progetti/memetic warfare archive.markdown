@@ -12,10 +12,15 @@ videos :
 - video: /assets/img/mwa/mwa3.mp4
 ---
 
-Archivio indicizzato di meme creati in seguito alle proteste in Hong Kong degli ultimi anni. L'archivio nasce con l'obiettivo di trovare un collegamento tra tecniche di propaganda utilizzate nella comunicazione "tradizionale" e i metadati (visvi e testuali) degli internet memes
+Archivio indicizzato di meme creati in seguito alle proteste in Hong Kong degli ultimi anni. L'archivio nasce con l'obiettivo di trovare un collegamento tra tecniche di propaganda utilizzate nella comunicazione "tradizionale" e i metadati (visvi e testuali) degli internet memes.
+Il sito è visitabile [qui](https://densitydesign.github.io/teaching-dd15/course-results/es03/group03/ "the warfare of funny pictures on internet")
 
 GRUPPO DI LAVORO<br>
-Valentina Caiola, Davide Formenti, Riccardo Fuccelli, Diego Morra, Andrea Pronzati
+Valentina Caiola<br>
+Davide Formenti<br>
+Riccardo Fuccelli<br>
+Diego Morra<br>
+Andrea Pronzati
 
 
 RUOLO DI PROGETTO <br>

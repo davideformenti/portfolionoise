@@ -36,7 +36,7 @@ function setup()
     p5Canvas=createCanvas(windowWidth,windowHeight);
     gui = createGui();
     gui.setTextSize(20);
-    gui.setStrokeWeight(1);
+    gui.setStrokeWeight(.5);
     gui.setFont(spectral);
    gui.setRounding(0); 
 
@@ -397,3 +397,6 @@ else{
 }
 
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}

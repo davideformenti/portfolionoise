@@ -1,4 +1,10 @@
 
+var sipario =document.getElementById("quinte");
+
+function loadfun(){
+  sipario.style.display="none";
+}
+
 $("#lavori").click(function(){
   $("#successivo").addClass("visible");
   $("#defaultCanvas0").addClass("blur");
@@ -58,7 +64,7 @@ $(document).click(function(event) {
   }
 });
 
-var divs = $('.containerprogetto img, video');
+var divs = $('.containerprogetto img, video, h2');
 console.log(divs.length);
 console.log(divs);
 var docHeight = $(document).height(),
@@ -113,4 +119,5 @@ $('.list-item-progetto').click(function() {
 
  $( function() {
   $( ".list-item-progetto" ).draggable();
+  $( ".vp-center" ).draggable({ handle: 'h2' });
 } ); 

@@ -17,7 +17,11 @@ Dal corso di sociologia dei Media e dei Nuovi mezzi di comunicazione 2 nasce l'i
 {: .intro }
 
 GRUPPO DI LAVORO<br>
-Francesca dell'Orto, Davide Formenti, Riccardo Fuccelli, Carlo Ottaviani, Andrea Pronzati
+Francesca dell'Orto<br>
+Davide Formenti<br>
+Riccardo Fuccelli<br>
+Carlo Ottaviani<br>
+Andrea Pronzati
 {: .team }
 
 

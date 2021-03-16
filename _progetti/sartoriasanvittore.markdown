@@ -15,3 +15,7 @@ pictures :
 Rebrand del marchio Sartoria SanVittore, piccolo negozio di abiti di alta moda fatti a mano da ex carcerate. L'obiettivo principale è stato quello di sottolineare il percorso e il tracciamento di ogni fase di produzione dell'abito.
 
 GRUPPO DI LAVORO
+Daniela Baretti <br>
+Davide Formenti <br>
+Diego Morra<br>
+Marco Valli 

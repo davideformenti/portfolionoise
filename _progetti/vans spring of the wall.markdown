@@ -18,6 +18,10 @@ VANS ha collaborato con la Scuola del Design del Politecnico di Milano dando vit
 {: .intro }
 
 GRUPPO DI LAVORO <br>
-Eleonora Rossetti Leonardo Codamo Giacomo Zambon Andrea Rigamonti Davide Formenti
+Eleonora Rossetti<br>
+Leonardo Codamo<br>
+Giacomo Zambon<br>
+Andrea Rigamonti<br>
+Davide Formenti
 {: .team }
 

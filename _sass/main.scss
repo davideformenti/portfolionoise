@@ -2,7 +2,17 @@ $backgroundColor: #ffffff;
 $bodyColor: #000000;
 $bodyFont: 'Spectral', serif;
 $bodyWeight: 200;
- 
+
+
+
+.sipario{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 100000000000000000000000000000;
+}
+
 .blur {
   filter: blur(5px);
 }
@@ -242,7 +252,7 @@ background-color: white;
 padding: 1rem; }
 
 #dettagli{
-  width: 70vw;
+  width: 35vw;
   height: auto;
   display: none;
   position: fixed;
@@ -254,7 +264,7 @@ padding: 1rem; }
   border: 1px solid black;
   &.visible {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
 /*     justify-content: space-between;
  */  }
 }
@@ -278,7 +288,7 @@ a {
   align-items: center;}
   
  .contenutopost{width:10vw;}
-
+.ui-draggable-handle{/* border: 1px solid black; */}
 .descrizioneprogetto{
   margin:0rem;
 }

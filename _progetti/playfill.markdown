@@ -16,9 +16,7 @@ pictures :
 
 ---
 
-Cover for some volumes of "Playfill" series. Listen on Spotify the first one --> [here](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
+Cover album realizzate per alcune playlist collaborative in un periodo di quarantena. Le scene sono state modellate su Cinema 4D, non tutti gli oggetti sono stati modellati personalmente. Renderizzati con Octane Render. Una parziale implementazione di daz è stata utilizzata per la texture delle mani.<br> 
+Ascolta il primo volume [qui](https://open.spotify.com/playlist/1MJH9l5H8nY25Mn2KSqMBo?si=G4pednSOTr-QPxIuqvviaw "playlist")
 {: .intro }
-Rosa Massara De Capitani 5, Bovisa MI 
-{: .luogo }
-c4d, Octane, photoshop, illustrator
-{: .how }
+

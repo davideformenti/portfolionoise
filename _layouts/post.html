@@ -7,6 +7,7 @@
         {% include cartiglio.html %}
 
   <body>
+
   
     <!--  CONTROLLO DEL TITOLO DELLA PAGINA: POSSIBILE ASSEGNARE CSS PERSONALIZZATO A SECONDA DEL TITOLO DELLA PAGINA IN CUI CI SI TROVA. 
       SCOMMENTANDO SI ATTIVA LA GIF COME BACKGROUND NEL POST "THE WARFARE OF FUNNY PICTURES ON INTERNET"
@@ -34,6 +35,9 @@ background-size: cover;
         {% if page.layout == 'about' %}
           <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
           <p>{{ page.content }}</p>
+          <a href="{{page.allegato1}}" target="_blank"><b>Portfolio.pdf -> download </b></a><br>
+          <a href="{{page.allegato2}}" target="_blank"><b>CV personale.pdf ->  download </b></a>
+  
         {% endif %}
         {% endfor %}
       </div>
@@ -51,11 +55,19 @@ background-size: cover;
           </video>
           {% endfor %}
 
+       <!--    {% for embed in page.embeds %}
+          <div draggable="true" class="videoemb">
+            <h2 draggable="true">
+          {{embed.embed}}
+        </h2>
+
+        </div>
+          {% endfor %} -->
 
           {% for picture in page.pictures %}
 
          
-
+            
       
             <img id="elemento_{{forloop.index}}" class="photo-gallery list-item-progetto immaginesingolaprogetto" src="{{ picture.picture }}" alt="{{ image.title}}"/>
         
@@ -97,9 +109,9 @@ background-size: cover;
 </body>
 
 
-<!-- <script>
+<script>
 window.onload = (event) => {
   console.log('The page has fully loaded');
-  alert('Drag images to fix the composition');
+  alert("Drag images to fix the composition. Move them outside the viewport to stick them in a more bigger canvas.");
 };
-</script> -->
+</script> 

@@ -1,3 +1,5 @@
+.sipario { display: block; width: 100vw; height: 100vh; background-color: white; z-index: 100000000000000000000000000000; }
+
 .blur { filter: blur(5px); }
 
 .filtroinverted { filter: invert(1); }
@@ -72,9 +74,9 @@ body { margin: 0rem; padding: 0rem; /*   overflow: hidden; */ background: #fffff
 
 #descrizione { position: fixed; z-index: 200; font-size: 1rem; bottom: 5vh; left: 2vw; border: 1px solid; /* border-radius: 11px; */ background-color: white; padding: 1rem; }
 
-#dettagli { width: 70vw; height: auto; display: none; position: fixed; right: 2vw; bottom: 5vh; padding: 1rem; background-color: white; /*   border-radius: 16px;*/ border: 1px solid black; }
+#dettagli { width: 35vw; height: auto; display: none; position: fixed; right: 2vw; bottom: 5vh; padding: 1rem; background-color: white; /*   border-radius: 16px;*/ border: 1px solid black; }
 
-#dettagli.visible { display: flex; flex-wrap: wrap; /*     justify-content: space-between; */ }
+#dettagli.visible { display: flex; flex-flow: column; /*     justify-content: space-between; */ }
 
 .intro { margin: 0; }
 
@@ -83,6 +85,8 @@ a { text-decoration: none; color: black; cursor: pointer; }
 .post { width: 100vw; height: -webkit-fill-available; display: flex; justify-content: center; align-items: center; }
 
 .contenutopost { width: 10vw; }
+
+.ui-draggable-handle { /* border: 1px solid black; */ }
 
 .descrizioneprogetto { margin: 0rem; }
 

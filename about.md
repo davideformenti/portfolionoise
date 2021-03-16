@@ -1,22 +1,26 @@
 ---
-allegato: /assets/file/portfolio_low_formenti_davide.pdf
-title: "Who? Why?"
+layout: about
+allegato1: /assets/file/portfolio_low_formenti_davide.pdf
+allegato2: /assets/file/formentidavidecv.pdf
+title: "Chi? Perchè?"
 ---
 
-Graduated in 2017 in Communication and Graphic Design.<br>
+Laurea Triennale in Design della Comunicazione, Politecnico di Milano, 2018.<br>
 
-Enjoyng exploring new visual paths hidden beneath the code and the motion science.<br>
+Creative Coding - Esperimenti 3D <br>
 
-Unpleasant Musician. <br>
+Musicista sporadico <br>
 
-SAPR and Drone Pilot with ENAC licence.<br>
+Pilota Droni e SAPR con licenza ENAC.<br>
 
-Half Spanish, half Italian.<br>
+In parte Italiano, Por Parte Espanol. <br>
+
 
 
 davideformentiarranz@gmail.com<br>
 
 @davidformentiarranz<br><br>
+
 
 This Portfolio was developed with Jekyll and Github Pages
 

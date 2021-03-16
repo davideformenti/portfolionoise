@@ -14,5 +14,10 @@ pictures :
 Uguale Magazine nasce come frutto del lavoro di gruppo nel corso Design di Artefatti Complessi di magistrale. Con l'assegnazione della tematica "Diritti Umani" è stato intrapreso un percorso di ricerca basato su storie, racconti ed esperienze del singolo che cercano di elidere dalla cultura milanese ogni forma di stereotipo.
 
 GRUPPO DI LAVORO<br>
-Anonella Autuori, Davide Formenti, Riccardo Fuccelli, Andrea Pronzati, Panita Siri Won-garm, Costanza Trinari.
+Anonella Autuori<br>
+ Davide Formenti<br> 
+ Riccardo Fuccelli<br>
+ Andrea Pronzati<br>
+ Panita Siri Won-garm<br>
+ Costanza Trinari
 {: .team }
